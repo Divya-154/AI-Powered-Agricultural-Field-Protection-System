@@ -2,28 +2,37 @@
 
 ## Overview
 
-An AI-based agricultural monitoring system designed to detect potential threats in agricultural fields and generate alerts for timely response.
+An AI-powered agricultural monitoring system designed to detect potential threats in agricultural fields and generate alerts using IoT-enabled devices.
 
 ## Technologies Used
 
 - Python
 - YOLO Object Detection
-- ESP32
+- ESP8266
+- Arduino IDE
 - IoT Concepts
+
+## Project Architecture
+
+1. Object detection is performed using a Python-based AI model.
+2. Detection results are processed and transmitted.
+3. ESP8266 receives the alert information.
+4. Notifications are generated for field protection.
+
+## Repository Structure
+
+- Python_Code : Detection logic
+- ESP8266_Code : IoT alert module
+- Screenshots : Sample outputs
+- Documentation : Project flow and supporting documents
 
 ## Features
 
 - Real-time monitoring
-- Object detection
-- Alert generation
-- Smart field protection
+- AI-based detection
+- IoT-enabled alert system
+- Agricultural field protection
 
-## Project Type
+## Status
 
-Academic / Prototype Project
-
-## Future Improvements
-
-- Mobile application integration
-- Cloud-based monitoring
-- Advanced analytics dashboard
+Academic Project / Prototype
