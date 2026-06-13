@@ -1,0 +1,6 @@
+1. ultralytics
+2. opencv-python
+3. pyserial
+4. torch
+5. torchvision
+6. numpy
